@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "zim-dish",
+    "slug": "zim-dish-recipes-app",
+    "description": "Zimbabwean Recipes App ",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    
+  "android": {
+  "package": "com.probity.zimdish"
+  },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo-zim.png",
+    "splash": {
+      "image": "./assets/logo-zim.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
